@@ -2,7 +2,7 @@
 
 # Install AutoPkg
 git clone https://github.com/autopkg/autopkg.git
-sudo ./autopkg/Scripts/install.sh
+cd autopkg && sudo ./Scripts/install.sh
 
 # Add default recipes
 autopkg repo-add recipes
