@@ -20,4 +20,4 @@ RECIPES_PATH="${HOME}/hjuutilainen-recipes"
 git clone https://github.com/autopkg/hjuutilainen-recipes.git "${RECIPES_PATH}"
 
 # Run recipes
-autopkg run -v --post "io.github.hjuutilainen.VirusTotalAnalyzer/VirusTotalAnalyzer" ${RECIPES_PATH}/*/*.download.recipe
+autopkg run -v --post "io.github.hjuutilainen.VirusTotalAnalyzer/VirusTotalAnalyzer" ${RECIPES_PATH}/{A,B,C}*/*.download.recipe
